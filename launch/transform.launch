@@ -1,0 +1,9 @@
+<launch>
+    <!-- <node name="static_tranform" pkg="tf2_ros" type="static_transform_publisher" output="screen" args="200 0 0 0 0 0 map rotated_cloud_frame"/> -->
+    <node name="pcd_opener" pkg="pcd_viewer" type="pcd_opener" output="screen">
+        <param name="pcd_dir" value="$(find pcd_viewer)/pcd/pcl_transform.pcd" />
+    </node>
+    <node name="pcd_transformer" pkg="pcd_viewer" type="pcd_transformer" output="screen">
+        <param name="pcd_name" value="pcd_kamu" />
+    </node>
+</launch>
