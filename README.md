@@ -19,7 +19,7 @@ Change {pcd_file_name} into the desired pcd.
 ```
 change {saved_pcd_file_name} for saved pcd file name, the file will be saved in pcd dir
 
-## 2. Configure Launch File
+## 2. Run Launch File
 
 ```
 roslaunch pcd_viewer transform.launch
