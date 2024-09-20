@@ -6,7 +6,7 @@
     <node name="pcd_transformer" pkg="pcd_viewer" type="pcd_transformer" output="screen">
         <param name="pcd_name" value="pcd_kamu" />
     </node>
-    <node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find pcd_viewer)/"/>
+    <node name="rviz" pkg="rviz" type="rviz" output="screen" args="-d $(find pcd_viewer)/config/rviz.rviz"/>
 
     
 </launch>
