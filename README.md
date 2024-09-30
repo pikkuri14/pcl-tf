@@ -1,6 +1,6 @@
 # PCL Transformation
 
-This repo is implementing PCL to PCD, PCL Transformer, PCL to PCD.
+This repo is to implement PCL to PCD, PCL Transformer, PCL to PCD.
 
 ## 1. Configure Launch File
 
